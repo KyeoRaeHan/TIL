@@ -18,7 +18,6 @@
 
 ![list4](https://user-images.githubusercontent.com/59241047/74589461-e77fc800-5048-11ea-9b0c-214b2aaff2bb.JPG)
 
-삼중인덱싱도 가능할까??? 가능하다!!!
 ![list5](https://user-images.githubusercontent.com/59241047/74589475-01b9a600-5049-11ea-8d9a-0ac7ec450212.JPG)
-
+ 삼중인덱싱도 가능할까??? 가능하다!!!
  4,5,6... 리스트는 다중 인덱싱이 가능하다.
