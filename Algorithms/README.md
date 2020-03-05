@@ -1,2 +1,2 @@
-# Algorithm 모음
+# Algorithms 모음
 1. codeup
