@@ -1,3 +1,3 @@
 # 전문가를 위한 머신러닝 솔루션
 
-![unnamed](https://user-images.githubusercontent.com/59241047/76220990-b5cedb00-625b-11ea-830d-edce8ed0fa25.jpg)
+![unnamed (1)](https://user-images.githubusercontent.com/59241047/76221066-d303a980-625b-11ea-8137-7b704fee593c.jpg)
