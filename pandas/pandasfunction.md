@@ -11,3 +11,5 @@ df.loc[]: 인덱스 기준으로 행 데이터 읽기(index는 행번호, 문자
 df.loc[[]]: 해당 열(row) dataframe형태로 꺼내기
 
 df.iloc[]: 행 번호를 기준으로 행 데이터 읽기
+
+df.corr(): 상관분석 = 
