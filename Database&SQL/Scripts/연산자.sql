@@ -14,6 +14,7 @@ select 20 / 10;
 
 select salary, salary + 1000, salary - 1000, salary * 1000, salary / 1000
 from salaries;
+
 ![1](https://user-images.githubusercontent.com/59241047/82984300-daea1300-a02c-11ea-831e-086efaaf2729.JPG)
 
 -- 연습문제
