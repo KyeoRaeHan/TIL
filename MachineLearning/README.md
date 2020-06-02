@@ -1,3 +1,6 @@
 # 머신러닝에 대해 공부한 모든 자료
 
 #### 머신러닝 교과서 with 파이썬, 사이킷런, 텐서플로
+
+#### 머신러닝 단기집중과정
+https://developers.google.com/machine-learning/crash-course?hl=ko
