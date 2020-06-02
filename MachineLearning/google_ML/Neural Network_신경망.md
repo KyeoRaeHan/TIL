@@ -4,6 +4,8 @@
 
 ##### 심층 신경망(Deep Neural Network, DNN)
 
+![dnn](https://user-images.githubusercontent.com/59241047/83498964-914f6b80-a4f7-11ea-8218-3b1b8f6019c3.png)
+
 이미지 데이터, 오디오 데이터, 동영상 데이터 등 복잡한 데이터에서 뛰어난 성능을 보여준다.
 
 
@@ -11,6 +13,8 @@
 ##### ReLU: 가장 간단한 비선형 함수
 
 ----------------------
+
+![relu](https://user-images.githubusercontent.com/59241047/83499137-d4a9da00-a4f7-11ea-892f-1d4774aea345.JPG)
 
 0 이상일 때는 선형 함수지만, 0보다 작은 값을 내놓으면 이 값을 0으로 돌린다.
 
