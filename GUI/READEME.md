@@ -13,3 +13,5 @@
 upload code about pygt5 for coding GUI
 
 https://wikidocs.net/33889
+
+gui 뿌잉뿌잉
