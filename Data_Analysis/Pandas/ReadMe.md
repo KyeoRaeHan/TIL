@@ -4,7 +4,7 @@
   - Python for Data Analysis_파이썬 라이브러리를 활용한 데이터 분석
   
  
-## Pandas
+## Pandas: Python Library for Data manipulation and analysis
 
 pandas는 구조화된 데이터나 표 형식의 데이터를 빠르고 쉽고 표현적으로 다루도록 설계된 고수준의 자료구조와 함수를 제공하는 라이브러리다. 데이터 분석에서 데이터를 처리하고 다듬는 과정은 데이터 분석에서 가장 중요한 부분이므로 Pandas는 매우 중요한 라이브러리이다.
 
