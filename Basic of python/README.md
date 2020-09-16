@@ -1,2 +1,2 @@
-## 컴퓨터 공학 입문 &  python Basic 문법정리
+## 컴퓨터 공학 입문 &  python Basic 문법정리_ postech
 ## inflearn & python
