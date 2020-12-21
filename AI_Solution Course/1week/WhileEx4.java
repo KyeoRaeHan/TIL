@@ -6,44 +6,44 @@ public class WhileEx4 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in); //scanner °´Ã¼ »ı¼º
+		Scanner sc = new Scanner(System.in); //scanner ê°ì²´ ìƒì„±
 		
 		char yn; //yes or no
-		int score = 0; //Á¡¼ö
-		int count = 0; //°¹¼ö
+		int score = 0; //ì ìˆ˜
+		int count = 0; //ê°¯ìˆ˜
 		
 		while(true) {
 			
-			////5¹ø¹®Á¦±îÁö Ãâ·Â
+			////5ë²ˆë¬¸ì œê¹Œì§€ ì¶œë ¥
 			
 			for(int i=1; i<=5; i++) { 
 				
 				
-				int a = (int)(Math.random()*99)+1; // 0 ~ 99±îÁö ÀÓÀÇÀÇ Á¤¼ö »ı¼º
-				int b = (int)(Math.random()*99)+1; // 0 ~ 99±îÁö ÀÓÀÇÀÇ Á¤¼ö »ı¼º
+				int a = (int)(Math.random()*99)+1; // 0 ~ 99ê¹Œì§€ ì„ì˜ì˜ ì •ìˆ˜ ìƒì„±
+				int b = (int)(Math.random()*99)+1; // 0 ~ 99ê¹Œì§€ ì„ì˜ì˜ ì •ìˆ˜ ìƒì„±
 				int total = a + b;
 				
-				System.out.println("[" + i + "¹ø ¹®Á¦]:" + a + "+" + b + "=");
+				System.out.println("[" + i + "ë²ˆ ë¬¸ì œ]:" + a + "+" + b + "=");
 				
 				int d = sc.nextInt();
 				
 				if(d == total) {
-					System.out.println("Á¤´äÀÔ´Ï´Ù.");
-					count ++; //¸ÂÀ¸¸é count 1¾¿ Áõ°¡
-					score += 20; //¸ÂÀ¸¸é score 20¾¿ Áõ°¡
+					System.out.println("ì •ë‹µì…ë‹ˆë‹¤.");
+					count ++; //ë§ìœ¼ë©´ count 1ì”© ì¦ê°€
+					score += 20; //ë§ìœ¼ë©´ score 20ì”© ì¦ê°€
 				} 
 				
 				 else {
-					 System.out.println("¿À´äÀÔ´Ï´Ù.");
-					 System.out.println("Á¤´ä:" + total);
+					 System.out.println("ì˜¤ë‹µì…ë‹ˆë‹¤.");
+					 System.out.println("ì •ë‹µ:" + total);
 				 }
 			
 //				break;
 			}
 			
-				System.out.println("¸ÂÀº°³¼ö: " + count);
-				System.out.println("Á¡¼ö: " + score);
-				System.out.println("ÇÑ¹ø ´õ ÇÏ½Ç °Ç°¡¿ä? (Y or N)");
+				System.out.println("ë§ì€ê°œìˆ˜: " + count);
+				System.out.println("ì ìˆ˜: " + score);
+				System.out.println("í•œë²ˆ ë” í•˜ì‹¤ ê±´ê°€ìš”? (Y or N)");
 				yn = sc.next().charAt(0);
 			
 				if(yn == 'Y' | yn == 'y') {
@@ -52,9 +52,9 @@ public class WhileEx4 {
 				}
 				else {
 				
-					System.out.println("Á¾·á");
+					System.out.println("ì¢…ë£Œ");
 					
-					break; //While¹® Á¾·á
+					break; //Whileë¬¸ ì¢…ë£Œ
 			
 					}
 		
@@ -63,5 +63,3 @@ public class WhileEx4 {
     }
 	
 }
-
-//ÄÄÆÄÀÏÀÌ ¾ÈµÅ...
