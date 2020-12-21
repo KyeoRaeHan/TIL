@@ -9,11 +9,11 @@ public class LottoEx2 {
 		System.out.println(">> Lotto Program");
 		
 		while(true) {
-			System.out.println("1 ~ 99 »çÀÌÀÇ ¼ıÀÚ 6°³¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("1 ~ 99 ì‚¬ì´ì˜ ìˆ«ì 6ê°œë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 			System.out.println(">");
-			int arr[] = new int[6]; //¹è¿­ °´Ã¼ »ı¼º
+			int arr[] = new int[6]; //ë°°ì—´ ê°ì²´ ìƒì„±
 			
-			Scanner sc = new Scanner(System.in); //scanner °´Ã¼ »ı¼º
+			Scanner sc = new Scanner(System.in); //scanner ê°ì²´ ìƒì„±
 			
 			for(int i=0; i<arr.length; i++) {
 			
@@ -22,19 +22,19 @@ public class LottoEx2 {
 				
 				
 			} else {
-				System.out.println("´Ù½Ã ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
-				i--; //for¹®ÀÇ i++ ¿ÏÈ­
+				System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ ì£¼ì„¸ìš”");
+				i--; //forë¬¸ì˜ i++ ì™„í™”
 			}
 			
 			
-			//Áßº¹ ¼ıÀÚ°¡ ³ª¿ÀÁö ¾Ê°Ô 
+			//ì¤‘ë³µ ìˆ«ìê°€ ë‚˜ì˜¤ì§€ ì•Šê²Œ 
 			for(int j=0; j<i; j++) {
 				if(arr[i] == arr[j]) {
-					System.out.println("Áßº¹ÀÔ´Ï´Ù");
-					i--; // ´Ù½Ã ½ÇÇàµÇµµ·Ï 1°¨¼Ò
+					System.out.println("ì¤‘ë³µì…ë‹ˆë‹¤");
+					i--; // ë‹¤ì‹œ ì‹¤í–‰ë˜ë„ë¡ 1ê°ì†Œ
 				}
 				
-				//¿À¸§Â÷¼ø
+				//ì˜¤ë¦„ì°¨ìˆœ
 				
 				if(arr[i] < arr[j]) { 
 					int temp = arr[i];
@@ -47,21 +47,21 @@ public class LottoEx2 {
 			
 			
 			for(int i=0; i<arr.length; i++) {
-				System.out.print("´ç½ÅÀÌ ÀÔ·ÂÇÑ ¼ıÀÚ´Â: ");
+				System.out.print("ë‹¹ì‹ ì´ ì…ë ¥í•œ ìˆ«ìëŠ”: ");
 				System.out.print(arr[i] + " ");
 			}
 					
-			Random ram = new Random(); //random °´Ã¼»ı¼º
-			int comarr[] = new int[6]; // ¼±ÅÃ¹øÈ£ 6°³°¡ ÀúÀå µÉ ¹è¿­ °´Ã¼ »ı¼º
+			Random ram = new Random(); //random ê°ì²´ìƒì„±
+			int comarr[] = new int[6]; // ì„ íƒë²ˆí˜¸ 6ê°œê°€ ì €ì¥ ë  ë°°ì—´ ê°ì²´ ìƒì„±
 			for(int i =0; i<comarr.length; i++) {
-				comarr[i] = ram.nextInt(99)+1; // 0~99±îÁöÀÇ ·£´ıÇÑ ¼ö »ı¼º
+				comarr[i] = ram.nextInt(99)+1; // 0~99ê¹Œì§€ì˜ ëœë¤í•œ ìˆ˜ ìƒì„±
 				for(int j=0; j<i; j++ ) {
 					if(comarr[i] == comarr[j]) {
-						i--; //´Ù½Ã ½ÇÇàµÇµµ·Ï 1°¨¼Ò
+						i--; //ë‹¤ì‹œ ì‹¤í–‰ë˜ë„ë¡ 1ê°ì†Œ
 					}
 				}
 				
-				// ¿À¸§Â÷¼ø
+				// ì˜¤ë¦„ì°¨ìˆœ
 			for(int j=0; j<comarr.length; j++) {
 				if(comarr[i] < comarr[j]) {
 					int temp = comarr[i];
@@ -71,7 +71,7 @@ public class LottoEx2 {
 			}
 			
 		}
-		System.out.print("·Î¶Ç ´çÃ· ¹øÈ£´Â : ");
+		System.out.print("ë¡œë˜ ë‹¹ì²¨ ë²ˆí˜¸ëŠ” : ");
 		for(int i=0; i<comarr.length; i++) {
 			System.out.print(comarr[i]+" ");
 		}
@@ -79,7 +79,7 @@ public class LottoEx2 {
 		
 		
 		
-		//¹øÈ£ ÀÏÄ¡ °¹¼ö¿¡ µû¸¥ µî¼ö Ãâ·Â
+		//ë²ˆí˜¸ ì¼ì¹˜ ê°¯ìˆ˜ì— ë”°ë¥¸ ë“±ìˆ˜ ì¶œë ¥
 		int cons = 0;
 		for(int i=0; i<6; i++) {
 			for(int j=0; j<6; j++) {
@@ -91,46 +91,46 @@ public class LottoEx2 {
 		}
 		
 		if(cons == 6) {
-			System.out.println("1µî!!");
+			System.out.println("1ë“±!!");
 		}
 		
 		else if(cons == 5) {
-			System.out.println("2µî!!");
+			System.out.println("2ë“±!!");
 		}
 		
 		else if(cons == 4) {
-			System.out.println("3µî!!");
+			System.out.println("3ë“±!!");
 		}
 		
 		else if(cons == 3) {
-			System.out.println("4µî!!");
+			System.out.println("4ë“±!!");
 		}
 		
 		else if(cons == 2) {
-			System.out.println("5µî!!");
+			System.out.println("5ë“±!!");
 		}
 		
 		else if(cons == 1) {
-			System.out.println("6µî!!");
+			System.out.println("6ë“±!!");
 		}
 		
 		else if(cons == 0) {
-			System.out.println("²Ãµî!!");
+			System.out.println("ê¼´ë“±!!");
 		} else {
-			System.err.println("¿À·ù!!!"); //error¸Ş½ÃÁö¸¦ ÄÜ¼Ö¿¡ »¡°£»ö ÆùÆ®·Î Ç¥½Ã
+			System.err.println("ì˜¤ë¥˜!!!"); //errorë©”ì‹œì§€ë¥¼ ì½˜ì†”ì— ë¹¨ê°„ìƒ‰ í°íŠ¸ë¡œ í‘œì‹œ
 		}
 		
-		System.out.println("°è¼Ó ÁøÇàÇÏ½Ã°Ú½À´Ï±î? (Y/N)");
+		System.out.println("ê³„ì† ì§„í–‰í•˜ì‹œê² ìŠµë‹ˆê¹Œ? (Y/N)");
 		char yn = sc.next().charAt(0);
 		
 		if(yn == 'y' | yn == 'Y') {
-			System.out.println(">> °è¼ÓÁøÇàÇÏ°Ú½À´Ï´Ù.");
+			System.out.println(">> ê³„ì†ì§„í–‰í•˜ê² ìŠµë‹ˆë‹¤.");
 			continue;
 		} else if(yn == 'n' | yn == 'N') {
-			System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù");
-			System.exit(0); //Á¤»óÁ¾·á
+			System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤");
+			System.exit(0); //ì •ìƒì¢…ë£Œ
 		} else {
-			System.out.println("´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä!!");
+			System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”!!");
 			yn = sc.next().charAt(0);
 		}
 			
@@ -139,5 +139,6 @@ public class LottoEx2 {
 		}
 
 	}
+
 
 }
