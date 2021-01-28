@@ -8,3 +8,6 @@
 --------------------------
 https://www.kaggle.com/karangadiya/fifa19
 https://sofifa.com/?r=190075&set=true
+
+### 분석용데이터세트 TEST
+### DB수업
