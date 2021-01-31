@@ -1,2 +1,4 @@
-# Python for Data Analysis
-## 파이썬 라이브러리를 활용한 데이터분석 정리
+## Python for Data Analysis
+
+#### 1. 파이썬 라이브러리를 활용한 데이터분석 책 정리 
+#### 2. 데이터 전처리, 분석, 시각화에 유용한 코드 정리
