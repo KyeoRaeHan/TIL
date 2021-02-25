@@ -13,3 +13,4 @@
 - 군집화
     - K-means 알고리즘
     - 군집 평가(Cluster Evaluation)
+    - 군집화 실습 - 고객 
